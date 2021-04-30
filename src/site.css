@@ -1,0 +1,54 @@
+.github-profile{
+   display: block;
+  
+}
+.info{
+     display:block;
+  
+}
+.info img{
+    width: 75px;
+}
+.form-input{
+    
+    padding: 10px 10px;
+    margin: 5px;
+}
+
+.form-input input{
+    width: 70%;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  
+
+   
+}
+.signup{
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+.login{
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    
+}
+button{
+    background-color: #999;
+    
+    width:max-content;
+    height: 50%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media only screen and (min-width:768px) {
+    .github-profile{
+        display:inline-block;
+ }
+    
+}
